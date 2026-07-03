@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Demo</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: "Dosis", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .demo-box {
+
+            max-width: 700px;
+            padding: 40px;
+            border-radius: 15px;
+            background: #171717;
+            box-shadow: 0 0 30px rgba(255, 255, 255, .05);
+        }
+
+        @media (max-width:768px) {
+
+            .demo-box {
+                width: 90%;
+                padding: 25px;
+            }
+
+            .demo-box h1 {
+                font-size: 2rem;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo-box">
+        <h1>Chatroom Preview</h1>
+
+        <p>
+            This project demonstrates the frontend interface
+            of a chat application.
+
+            Backend functionality such as real time messaging
+            is intentionally not included.
+        </p>
+
+        <a href="index.html">
+            Return Home
+        </a>
+    </div>
+</body>
+
+</html>
